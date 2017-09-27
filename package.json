@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start":"node server/server1.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines":{
+    "node":"8.5.0"
+  }
   "author": "",
   "license": "ISC",
   "dependencies": {
